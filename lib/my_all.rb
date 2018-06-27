@@ -3,7 +3,7 @@ require 'pry'
 def my_all?(array)
  i = 0
   collection = []
-  if array.length =< 3
+  if array.length < 3
     return false
   else
     while i < array.length
