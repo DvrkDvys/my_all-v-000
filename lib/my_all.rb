@@ -6,7 +6,7 @@ def my_all?(array)
   if array.length < 3
     return false
   else
-    while i < array.length
+    while i < array.length ||
       collection << yield(array[i])
       i += 1
     end
