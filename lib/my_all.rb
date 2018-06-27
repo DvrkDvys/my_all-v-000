@@ -3,11 +3,15 @@ require 'pry'
 def my_all?(array)
  i = 0
   collection = []
-  while i < array.length
-    collection << yield(array[i])
-    i += 1
-  end
+  if array.length < 3
+    return false
+  else
+    while i < array.length
+      collection << yield(array[i])
+      i += 1
+    end
   collection
+  return true
 end
 
 
