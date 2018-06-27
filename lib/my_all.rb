@@ -11,7 +11,7 @@ def my_all?(array)
       i += 1
     end
   collection
-  end
+  # end
   # return true
 end
 
