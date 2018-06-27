@@ -8,7 +8,7 @@ def my_all?(array)
       i += 1
     end
   collection
-  binding.pry
+  # binding.pry
   if collection.include?(false) == true
     return false
   else 
