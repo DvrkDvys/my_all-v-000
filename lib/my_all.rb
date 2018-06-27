@@ -12,6 +12,7 @@ def my_all?(array)
     return false
   else 
     return true
+  end
 end
 
 
