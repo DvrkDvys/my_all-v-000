@@ -12,7 +12,7 @@ def my_all?(array)
     end
   collection
   end
-  return true
+  # return true
 end
 
 
