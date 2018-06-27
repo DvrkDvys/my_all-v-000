@@ -8,7 +8,10 @@ def my_all?(array)
       i += 1
     end
   collection
-  if collection
+  if collection.contains(false)
+    return false
+  else 
+    return true
 end
 
 
