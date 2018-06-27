@@ -8,11 +8,12 @@ def my_all?(array)
       i += 1
     end
   collection
-  if collection.includes?(false)
-    return false
-  else 
-    return true
-  end
+  binding.pry
+  # if collection.includes?(false)
+  #   return false
+  # else 
+  #   return true
+  # end
 end
 
 
