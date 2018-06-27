@@ -9,7 +9,7 @@ def my_all?(array)
     end
   collection
   binding.pry
-  if collection.includes?(false)
+  if collection.include?(false) == true
     return false
   else 
     return true
